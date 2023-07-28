@@ -1,123 +1,304 @@
 [
     {
-      "title": "Карточка 1",
-      "text": "Текст карточки 1",
-      "popularity": 5,
-      "year": 2022
-    },
-    {
-      "title": "Карточка 2",
-      "text": "Текст карточки 2",
-      "popularity": 8,
-      "year": 2023
-    },
-    {
-      "title": "Карточка 3",
-      "text": "Текст карточки 3",
-      "popularity": 3,
+      "title": "Card 1",
+      "text": "This is the content of Card 1.",
+      "popularity": 67,
       "year": 2021
     },
     {
-      "title": "Карточка 4",
-      "text": "Текст карточки 4",
-      "popularity": 7,
-      "year": 2024
-    },
-    {
-      "title": "Карточка 5",
-      "text": "Текст карточки 5",
-      "popularity": 6,
+      "title": "Card 2",
+      "text": "This is the content of Card 2.",
+      "popularity": 45,
       "year": 2022
     },
     {
-      "title": "Карточка 6",
-      "text": "Текст карточки 6",
-      "popularity": 2,
-      "year": 2023
-    },
-    {
-      "title": "Карточка 7",
-      "text": "Текст карточки 7",
-      "popularity": 9,
+      "title": "Card 3",
+      "text": "This is the content of Card 3.",
+      "popularity": 82,
       "year": 2021
     },
     {
-      "title": "Карточка 8",
-      "text": "Текст карточки 8",
-      "popularity": 4,
-      "year": 2025
-    },
-    {
-      "title": "Карточка 9",
-      "text": "Текст карточки 9",
-      "popularity": 3,
+      "title": "Card 4",
+      "text": "This is the content of Card 4.",
+      "popularity": 30,
       "year": 2023
     },
     {
-      "title": "Карточка 10",
-      "text": "Текст карточки 10",
-      "popularity": 6,
-      "year": 2024
-    },
-    {
-      "title": "Карточка 11",
-      "text": "Текст карточки 11",
-      "popularity": 8,
+      "title": "Card 5",
+      "text": "This is the content of Card 5.",
+      "popularity": 55,
       "year": 2022
     },
     {
-      "title": "Карточка 12",
-      "text": "Текст карточки 12",
-      "popularity": 2,
-      "year": 2023
-    },
-    {
-      "title": "Карточка 13",
-      "text": "Текст карточки 13",
-      "popularity": 7,
+      "title": "Card 6",
+      "text": "This is the content of Card 6.",
+      "popularity": 90,
       "year": 2021
     },
     {
-      "title": "Карточка 14",
-      "text": "Текст карточки 14",
-      "popularity": 5,
-      "year": 2025
-    },
-    {
-      "title": "Карточка 15",
-      "text": "Текст карточки 15",
-      "popularity": 4,
-      "year": 2023
-    },
-    {
-      "title": "Карточка 16",
-      "text": "Текст карточки 16",
-      "popularity": 6,
-      "year": 2024
-    },
-    {
-      "title": "Карточка 17",
-      "text": "Текст карточки 17",
-      "popularity": 9,
+      "title": "Card 7",
+      "text": "This is the content of Card 7.",
+      "popularity": 20,
       "year": 2022
     },
     {
-      "title": "Карточка 18",
-      "text": "Текст карточки 18",
-      "popularity": 3,
-      "year": 2023
-    },
-    {
-      "title": "Карточка 19",
-      "text": "Текст карточки 19",
-      "popularity": 8,
+      "title": "Card 8",
+      "text": "This is the content of Card 8.",
+      "popularity": 75,
       "year": 2021
     },
     {
-      "title": "Карточка 20",
-      "text": "Текст карточки 20",
-      "popularity": 4,
-      "year": 2025
-    }
-  ]
+      "title": "Card 9",
+      "text": "This is the content of Card 9.",
+      "popularity": 42,
+      "year": 2023
+    },
+    {
+      "title": "Card 10",
+      "text": "This is the content of Card 10.",
+      "popularity": 60,
+      "year": 2022
+    },
+    {
+      "title": "Card 11",
+      "text": "This is the content of Card 11.",
+      "popularity": 87,
+      "year": 2021
+    },
+    {
+      "title": "Card 12",
+      "text": "This is the content of Card 12.",
+      "popularity": 15,
+      "year": 2022
+    },
+    {
+      "title": "Card 13",
+      "text": "This is the content of Card 13.",
+      "popularity": 95,
+      "year": 2021
+    },
+    {
+      "title": "Card 14",
+      "text": "This is the content of Card 14.",
+      "popularity": 73,
+      "year": 2023
+    },
+    {
+      "title": "Card 15",
+      "text": "This is the content of Card 15.",
+      "popularity": 50,
+      "year": 2022
+    },
+    {
+      "title": "Card 16",
+      "text": "This is the content of Card 16.",
+      "popularity": 10,
+      "year": 2021
+    },
+    {
+      "title": "Card 17",
+      "text": "This is the content of Card 17.",
+      "popularity": 35,
+      "year": 2022
+    },
+    {
+      "title": "Card 18",
+      "text": "This is the content of Card 18.",
+      "popularity": 80,
+      "year": 2021
+    },
+    {
+      "title": "Card 19",
+      "text": "This is the content of Card 19.",
+      "popularity": 47,
+      "year": 2023
+    },
+    {
+      "title": "Card 20",
+      "text": "This is the content of Card 20.",
+      "popularity": 75,
+      "year": 2022
+    },
+    {
+      "title": "Card 21",
+      "text": "This is the content of Card 21.",
+      "popularity": 95,
+      "year": 2021
+    },
+    {
+      "title": "Card 22",
+      "text": "This is the content of Card 22.",
+      "popularity": 68,
+      "year": 2022
+    },
+    {
+      "title": "Card 23",
+      "text": "This is the content of Card 23.",
+      "popularity": 18,
+      "year": 2021
+    },
+    {
+      "title": "Card 24",
+      "text": "This is the content of Card 24.",
+      "popularity": 40,
+      "year": 2023
+    },
+    {
+        "title": "Card 25",
+        "text": "This is the content of Card 25.",
+        "popularity": 53,
+        "year": 2022
+      },
+      {
+        "title": "Card 26",
+        "text": "This is the content of Card 26.",
+        "popularity": 88,
+        "year": 2021
+      },
+      {
+        "title": "Card 27",
+        "text": "This is the content of Card 27.",
+        "popularity": 12,
+        "year": 2022
+      },
+      {
+        "title": "Card 28",
+        "text": "This is the content of Card 28.",
+        "popularity": 90,
+        "year": 2021
+      },
+      {
+        "title": "Card 29",
+        "text": "This is the content of Card 29.",
+        "popularity": 27,
+        "year": 2023
+      },
+      {
+        "title": "Card 30",
+        "text": "This is the content of Card 30.",
+        "popularity": 62,
+        "year": 2022
+      },
+      {
+        "title": "Card 31",
+        "text": "This is the content of Card 31.",
+        "popularity": 91,
+        "year": 2021
+      },
+      {
+        "title": "Card 32",
+        "text": "This is the content of Card 32.",
+        "popularity": 14,
+        "year": 2022
+      },
+      {
+        "title": "Card 33",
+        "text": "This is the content of Card 33.",
+        "popularity": 85,
+        "year": 2021
+      },
+      {
+        "title": "Card 34",
+        "text": "This is the content of Card 34.",
+        "popularity": 38,
+        "year": 2023
+      },
+      {
+        "title": "Card 35",
+        "text": "This is the content of Card 35.",
+        "popularity": 77,
+        "year": 2022
+      },
+      {
+        "title": "Card 36",
+        "text": "This is the content of Card 36.",
+        "popularity": 93,
+        "year": 2021
+      },
+      {
+        "title": "Card 37",
+        "text": "This is the content of Card 37.",
+        "popularity": 71,
+        "year": 2022
+      },
+      {
+        "title": "Card 38",
+        "text": "This is the content of Card 38.",
+        "popularity": 20,
+        "year": 2021
+      },
+      {
+        "title": "Card 39",
+        "text": "This is the content of Card 39.",
+        "popularity": 52,
+        "year": 2023
+      },
+      {
+        "title": "Card 40",
+        "text": "This is the content of Card 40.",
+        "popularity": 79,
+        "year": 2022
+      },
+      {
+        "title": "Card 41",
+        "text": "This is the content of Card 41.",
+        "popularity": 96,
+        "year": 2021
+      },
+      {
+        "title": "Card 42",
+        "text": "This is the content of Card 42.",
+        "popularity": 69,
+        "year": 2022
+      },
+      {
+        "title": "Card 43",
+        "text": "This is the content of Card 43.",
+        "popularity": 23,
+        "year": 2021
+      },
+      {
+        "title": "Card 44",
+        "text": "This is the content of Card 44.",
+        "popularity": 35,
+        "year": 2023
+      },
+      {
+        "title": "Card 45",
+        "text": "This is the content of Card 45.",
+        "popularity": 72,
+        "year": 2022
+      },
+      {
+        "title": "Card 46",
+        "text": "This is the content of Card 46.",
+        "popularity": 88,
+        "year": 2021
+      },
+      {
+        "title": "Card 47",
+        "text": "This is the content of Card 47.",
+        "popularity": 11,
+        "year": 2022
+      },
+      {
+        "title": "Card 48",
+        "text": "This is the content of Card 48.",
+        "popularity": 87,
+        "year": 2021
+      },
+      {
+        "title": "Card 49",
+        "text": "This is the content of Card 49.",
+        "popularity": 48,
+        "year": 2023
+      },
+      {
+        "title": "Card 50",
+        "text": "This is the content of Card 50.",
+        "popularity": 92,
+        "year": 2022
+      }
+    ]
+    
   

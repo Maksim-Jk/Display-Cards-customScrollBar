@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const customPopular = document.querySelector(".custom-scrollbar-popular");
       customPopular.innerHTML = data
         .map((item) => {
-          return `<div class="popularity-block" style="height: ${item.popularity * 10}px">${item.popularity*10}%</div>`;
+          return `<div class="popularity-block" style="height: ${item.popularity}px">${item.popularity}%</div>`;
         })
         .join("");
 

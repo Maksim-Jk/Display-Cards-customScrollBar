@@ -1,99 +1,100 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-  .center-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .card-container {
-    display: flex;
-    overflow-x: auto;
-    max-height: 90vh;
-  }
-  
-  .card {
-    flex: 0 0 300px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin: 0 0 10px;
-  }
-  
-  p {
-    font-size: 16px;
-    margin: 0;
-  }
-  
-  .custom-scrollbar {
-    position: fixed;
-    bottom: 30px;
-    left: 200px;
-    right: 200px;
-    height: 100px; /* Adjust the height of the custom scrollbar */
-    background-color: #f0f0f0;
-    z-index: 1;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    cursor: pointer;
-    display: flex; /* Use flex to display the popularity blocks inside the scrollbar */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-container::-webkit-scrollbar {
-    display: none; /* Hide the default scrollbar for webkit browsers */
-  }
-  
-  .custom-scrollbar-thumb {
-    position: absolute;
-    bottom: 0;
-    height: 100%;
-    width: 20%; /* Width of the custom scrollbar thumb */
-    background-color: #00a8ff; /* Blue background color */
-    opacity: 30%;
-    border-radius: 10px;
-    cursor: grab; /* Set the cursor to indicate the thumb is draggable */
-  }
-  
-  /* Style for the popularity blocks inside the custom scrollbar */
-  .popularity-block {
-    background-color: rgb(204, 204, 204);
-    max-width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding: 5px;
-user-select: none;
-font-size: 14px;
-border-radius: 0 0 10px 10px;
-font-weight: 600;
-  }
-  
-  .custom-scrollbar-popular{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    user-select: none;
-    padding: 0 40px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
 
-  }
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  max-height: 90vh;
+}
+
+.card {
+  flex: 0 0 300px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.custom-scrollbar {
+  position: fixed;
+  bottom: 30px;
+  left: 200px;
+  right: 200px;
+  height: 100px; /* Adjust the height of the custom scrollbar */
+  background-color: #f0f0f0;
+  z-index: 1;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  cursor: pointer;
+  display: flex; /* Use flex to display the popularity blocks inside the scrollbar */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 5px;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none; /* Hide the default scrollbar for webkit browsers */
+}
+
+.custom-scrollbar-thumb {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 20%; /* Width of the custom scrollbar thumb */
+  background-color: #00a8ff; /* Blue background color */
+  opacity: 30%;
+  border-radius: 10px;
+  cursor: grab; /* Set the cursor to indicate the thumb is draggable */
+}
+
+/* Style for the popularity blocks inside the custom scrollbar */
+.popularity-block {
+  background-color: rgb(204, 204, 204);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 2px;
+  border: 1px solid black;
+  user-select: none;
+  font-size: 5px;
+  font-weight: 600;
+}
+
+.custom-scrollbar-popular {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  padding: 0 40px;
+  gap: 5px;
+
+}
