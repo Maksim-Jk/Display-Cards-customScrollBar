@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     function handleScrollWithMouseWheel(event, cardContainer) {
       const delta = Math.sign(event.deltaY);
-      cardContainer.scrollLeft += delta * 40;
+      cardContainer.scrollLeft += delta * 100;
       event.preventDefault();
     }
   

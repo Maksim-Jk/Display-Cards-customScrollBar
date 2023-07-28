@@ -94,7 +94,7 @@ p {
   display: flex;
   justify-content: space-between;
   user-select: none;
-  padding: 0 40px;
+  padding: 0 5px;
   gap: 5px;
 
 }
