@@ -45,9 +45,9 @@ body {
   
   .custom-scrollbar {
     position: fixed;
-    bottom: 300px;
-    left: 500px;
-    right: 500px;
+    bottom: 30px;
+    left: 200px;
+    right: 200px;
     height: 100px; /* Adjust the height of the custom scrollbar */
     background-color: #f0f0f0;
     z-index: 1;
@@ -55,6 +55,8 @@ body {
     overflow-y: hidden;
     cursor: pointer;
     display: flex; /* Use flex to display the popularity blocks inside the scrollbar */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .card-container::-webkit-scrollbar {
@@ -80,7 +82,10 @@ body {
     justify-content: center;
     align-items: start;
     padding: 5px;
-
+user-select: none;
+font-size: 14px;
+border-radius: 0 0 10px 10px;
+font-weight: 600;
   }
   
   .custom-scrollbar-popular{
@@ -88,4 +93,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: space-between;
+    user-select: none;
+    padding: 0 40px;
+
   }
