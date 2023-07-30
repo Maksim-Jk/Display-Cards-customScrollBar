@@ -36,7 +36,7 @@ The `data.json` file contains an array of objects, where each object represents 
 ```json
 {
   "title": "Card Title",
-  "description": "Card description goes here",
+  "text": "Card description goes here",
   "popularity": 70
 }
 ```
